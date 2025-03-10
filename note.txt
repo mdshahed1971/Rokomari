@@ -1,0 +1,16 @@
+
+<div class="flex justify-center gap-[24px] mb-[25px] lg:block hidden ">
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">লেখক</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">বিষয়  </a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">প্রকাশনী</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">বইমেলা ২০২৫</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">ই-বুক</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">প্যারালাল Text</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">ভর্তি প্রস্তুতি</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">ইসলামি বই</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">ইংরেজি ভাষার বই</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">পশ্চিমবঙ্গের বই</a>
+  <a class="text-[black] hover:text-blue-500 duration-200 lg:textxl text-base font medium font-r0b0to cursor-pointer">অতিরিক্ত ছাড়ের বই</a>
+</div>
+
+https://www.rokomari.com/nstatic/images/common/superdealbg.png

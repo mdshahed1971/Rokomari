@@ -4,8 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rokomari</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- google fonts -->
+    <!-- tailwind and daisyui -->
+    <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind and daisyui -->
+     <!-- font awsome -->
+     <script src="https://kit.fontawesome.com/2d2b6264bc.js" crossorigin="anonymous"></script>
+     <!-- font awsome -->
+      <!-- style -->
+     <style>
+        .font-roboto{
+            font-family: "Roboto", sans-serif;
+        }
+     </style>
+     <!-- style -->
 </head>
 <body>
-    
+    <!-- navber start -->
+
+    <div class="navbar bg-gray-100 mb-[70px]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a class="text-[gray]"><i class="fa-solid fa-truck-fast"></i>অর্ডার ট্র্যাক করুন</a></li>
+              <li><a class="text-[gray]"> <i class="fa-brands fa-ideal"></i>আজকের ডিল! </a></li>
+              <li><a class="text-[gray]">রকমারি উদ্যোক্তা</a></li>
+              <li><a class="text-[gray]"><i class="fa-solid fa-bangladeshi-taka-sign"></i>ঘরে বসে আয় করুন </a></li>
+              <li><a class="text-[gray]"><i class="fa-solid fa-hand-holding-dollar"></i>বই ডোনেশন</a></li>
+            </ul>
+          </div>
+          <a class="cursor-pointer text-[gray]">রকমারিতে স্বাগতম!</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[gray]"><i class="fa-solid fa-truck-fast"></i>অর্ডার ট্র্যাক করুন</a></li>
+            <li><a class="text-[gray]"> <i class="fa-brands fa-ideal"></i>আজকের ডিল! </a></li>
+            <li><a class="text-[gray]">রকমারি উদ্যোক্তা</a></li>
+            <li><a class="text-[gray]"><i class="fa-solid fa-bangladeshi-taka-sign"></i>ঘরে বসে আয় করুন </a></li>
+            <li><a class="text-[gray]"><i class="fa-solid fa-hand-holding-dollar"></i>বই ডোনেশন</a></li>
+          </ul>
+        </div>
+        
+      </div>
+<!-- navbar end -->
+
+
+
+<!-- writers  -->
+
+<section class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[20px] mb-[60px] bg-[#F1F2f4]">
+
+<div class="flex items-center border-2 p-[10px] gap-[10px] border-[#4398FE]">
+    <img src="./img/22133bff8_47902 .jpg" alt="" class="w-20">
+   <h3>আরিফ আজাদের নতুন বই</h3>
+</div>
+<div class="flex items-center border-2 p-[10px] gap-[10px] border-[#4398FE]">
+    <img src="./img/feecb90af_78860.jpg" alt="" class="w-20">
+    <h3>শায়খ আহমাদুল্লাহর নতুন বই</h3>
+</div>
+<div class="flex items-center border-2 p-[10px] gap-[10px] border-[#4398FE]">
+    <img src="./img/90fec8a35_5717.jpg" alt="" class="w-20">
+    <h3>সাদাত হোসাইনের নতুন বই</h3>
+</div>
+<div class="flex items-center border-2 p-[10px] gap-[10px] border-[#4398FE]">
+    <img src="./img/a61b81683_94070.png" alt="" class="w-20">
+    <h3>ইলমা বেহরোজের নতুন বই</h3>
+</div>
+
+
+</section>
+<!-- writers -->
+
+<!-- ধামাকা ডিসকাউন্ট -->
+ <h2 class="text-black font-roboto font-bold text-[30px]">ধামাকা ডিসকাউন্ট</h2>
+<section class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1">
+<div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/f30c8c4d7_7170.jpg" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="">নাঢ়াই</h2>
+      <p>শওকত আলী</p>
+      <p class="text-green-500">2 in stock</p>
+      <h3> TK. 227 <del>TK. 350</del></h3>
+    </div>
+  </div>
+
+
+
+
+  <div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/img_34228.gif" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="text-black font-medium text-lg mb-[15px]">দানববংশ</h2>
+      <p class="text-black text-sm mb-[10px]">মোস্তফা মীর</p>
+      <p class="text-green-500 mb-[10px]">2 in stock</p>
+      <h3 class="text-xl font-semibold font-roboto">TK. 84<del class="text-base font-medium text-[gray]">TK. 120</del></h3>
+    </div>
+  </div>
+
+
+  <div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/9a9752047_16037.jpg" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="text-black font-medium text-lg mb-[15px]">অর্ধসত্য</h2>
+      <p class="text-black text-sm mb-[10px]">ইমদাদুল হক মিলন</p>
+      <p class="text-green-500 mb-[10px]">2 in stock</p>
+      <h3 class="text-xl font-semibold font-roboto">TK. 97<del class="text-base font-medium text-[gray]">TK. 150</del></h3>
+    </div>
+  </div>
+
+
+
+
+  <div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/d0e006d8c_35058 (1).jpg" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="text-black font-medium text-lg mb-[15px]">ওস্তাদ আলাউদ্দীন খাঁ জীবনী ও পত্রসম্ভার</h2>
+      <p class="text-black text-sm mb-[10px]">মোবারক হোসেন খান</p>
+      <p class="text-green-500 mb-[10px]">2 in stock</p>
+      <h3 class="text-xl font-semibold font-roboto">TK. 140<del class="text-base font-medium text-[gray]">TK. 200</del></h3>
+    </div>
+  </div>
+
+
+
+  <div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/Etihas_Oitijjoer_Hirokkhondo_Chottogram-Aman_Ullah_Chowdhury-b50f6-33387.jpg" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="text-black font-medium text-lg mb-[15px]">ইতিহাস ঐতিহ্যের হীরকখণ্ড চট্টগ্রাম</h2>
+      <p class="text-black text-sm mb-[10px]">আমান উল্লাহ চৌধুরী</p>
+      <p class="text-green-500 mb-[10px]">2 in stock</p>
+      <h3 class="text-xl font-semibold font-roboto">TK. 280<del class="text-base font-medium text-[gray]">TK. 400</del></h3>
+    </div>
+  </div>
+
+
+
+  <div class="card bg-base-100  ">
+    <figure>
+      <img src="./img/22133bff8_47902 .jpg" alt="">
+    </figure>
+    <div class="card-body">
+      <h2 class="text-black font-medium text-lg mb-[15px]">পলাশী থেকে বাংলাদেশ</h2>
+      <p class="text-black text-sm mb-[10px]">মোঃ আবদুল কাইউম ঠাকুর</p>
+      <p class="text-green-500 mb-[10px]">2 in stock</p>
+      <h3 class="text-xl font-semibold font-roboto">TK. 560<del class="text-base font-medium text-[gray]">TK. 800</del></h3>
+    </div>
+  </div>
+
+</section>
+
+<!-- ধামাকা ডিসকাউন্ট -->
 </body>
 </html>
